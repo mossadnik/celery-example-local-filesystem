@@ -1,4 +1,5 @@
-from pathlib import Path
+"""Remote worker"""
+
 from celery import Celery
 
 

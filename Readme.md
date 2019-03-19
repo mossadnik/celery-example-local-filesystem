@@ -4,10 +4,15 @@
  * For loading data at startup, see [here](https://theblog.workey.co/my-experiences-with-a-long-running-celery-based-microprocess-b2cc30da94f5)
 
 
- Usage:
+ Starting the worker
 
  ```
 >>> celery -A tasks worker --loglevel=info
+```
 
+Running the client
+
+```
 >>> python main.py
+2
 ```
